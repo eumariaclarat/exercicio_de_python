@@ -7,7 +7,8 @@
 
 quantidade =float(input("Qual foi a quantidade produzida:"))
 meta = 1000
+faltantes = 1000 - quantidade
 if quantidade > meta:
     print("Atingiu uma nova meta!")
 else:
-    print("Não atingiu a meta")
+    print("Não atingiu a meta!,Ainda faltam {faltantes}")
